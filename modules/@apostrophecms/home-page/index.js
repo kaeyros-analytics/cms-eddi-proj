@@ -18,7 +18,8 @@ module.exports = {
                 'link',
                 '|',
                 'bulletList',
-                'orderedList'
+                'orderedList',
+                'blockquote'
               ],
               styles: [
                 {
@@ -35,8 +36,12 @@ module.exports = {
                 }
               ]
             },
-            '@apostrophecms/image': {},
-            '@apostrophecms/video': {}
+            '@apostrophecms/image': {
+              sizes: '(min-width: 600px) 45vw, (min-width: 1140px) 530px'
+            },
+            '@apostrophecms/video': {
+              className: 'area-video-class'
+            }
           }
         }
       }
