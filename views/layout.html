@@ -1,6 +1,7 @@
 {# Automatically extends the right outer layout and also handles AJAX siutations #}
 {% extends data.outerLayout %}
 
+
 {% set title = data.piece.title or data.page.title %}
 {% block title %}
   {{ title }}

@@ -22,7 +22,7 @@ module.exports = {
         label: 'Product photo',
         type: 'area',
         options: {
-          max: 1
+          max: 1,
           widgets: {
             '@apostrophecms/image': {}
           }
